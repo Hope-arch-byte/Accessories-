@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessories</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+
+    <style>
+        img:hover{
+            transition: 2s;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar section -->
+       <section class="row">
+        <div class="col-md-12">
+            <nav class="navbar bg-light navbar-light navbar-expand-md">
+                <a href="#" class="navbar-brand"><b><h1>Accessories</h1></b></a>
+                <!-- use # instead of index.html since the user is navigating within the same website or webpage. -->
+
+                <button 
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarcollapse"                
+                >
+                <!-- in data-bs-target # is used to show its an id name. -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarcollapse">
+                <!-- the above div is used to control the opening and closing of the toggle icon. -->
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-link active">Home</a>
+                        <a href="mobile.html" class="nav-link">mobile</a>
+                        <a href="fashion.html" class="nav-link">Fashion</a>
+                        <a href="kitchen.html" class="nav-link">kitchen</a>
+                        <a href="bathroom.html" class="nav-link">bathroom</a>
+                    </div>
+                    <!-- the above div is used to grp all the link. -->
+                </div>
+                <select name="" id="">
+                    <option value=""> Choose Category</option>
+                    <option value="">mobile accessories</option>
+                    <option value="">kitchen accessories</option>
+                    <option value="">fashion accessories</option>
+                    <option value="">bathroom accessories</option>
+                </select>
+            </nav>
+        </div>
+        
+     </section>
+     <hr>
+     <br>
+
+     
+
+    <section class="row">
+        <div class="col-md-12">
+            <!-- a div to control the sliding (main div)-->
+             <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                <!-- div for wrapping all the carousels -->
+                <div class="carousel-inner">
+
+                    <div class="carousel-item">
+                        <img src="images/bslide4.webp" alt="" class="w-100 d-block" height="300px">
+                    </div>
+
+                    <div class="carousel-item active">
+                        <img src="images/kslide1.webp" alt="" class="w-100 d-block" height="300px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/fslide1.jpeg" alt="" class="w-100 d-block" height="300px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/mslide3.jpeg" alt="" class="w-100 d-block" height="300px">
+                    </div>
+
+                </div>
+
+             </div>
+             <!-- controllers -->
+              <a href="" 
+              class="carousel-control-prev" 
+              data-bs-slide="prev"
+              data-bs-target="#mycarousel"
+              >
+                <span class="carousel-control-prev-icon bg-danger"></span>
+              </a>
+              <a href="" 
+              class="carousel-control-next" 
+              data-bs-slide="next"
+              data-bs-target="#mycarousel"
+              >
+                <span class="carousel-control-next-icon bg-danger"></span>
+              </a>
+        </div>
+      </section>
+    <br>
+    <hr>
+    <br>
+
+    <section class="row">
+        <h3 style="text-decoration: overline;">All Accessories</h3>
+        <div class="col-md-3 text-center">
+            <img src="images/bacc1.jpeg" alt="" width="280px" height="260px">
+
+            <h5>shower switch</h5>
+            
+            <b class="text-primary">Ksh 3,300</b>
+            <br>
+            <b class="badge bg-secondary">20% off</b>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <img src="images/kacc1.jpeg" alt="" width="250px" height="230px">
+            <h5>Kitchen Sieve</h5>
+            
+            <b class="text-primary">Ksh 2,300</b>
+            <br>
+            <b class="badge bg-secondary">20% off</b>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <img src="images/facc1.jpeg" alt="" width="250px" height="230px">
+            <h5>Stylish wear</h5>
+           
+            <b class="text-primary">Ksh 3,800</b>
+            <br>
+            <b class="badge bg-secondary">10% off</b>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <img src="images/bath1.jpg" alt="" width="250px" height="230px">
+            <h5>Bathing gloves</h5>
+            
+            <b class="text-primary">Ksh 5,300</b>
+            <br>
+            <b class="badge bg-secondary">30% off</b>
+        </div>
+     </section>
+     <br>
+     <hr>
+     <br>
+
+      <section class="row">
+        <div class="col-md-6 text-center ">
+            <div class="card shadow">
+
+                <div class="card-header">
+                    <img src="images/phone1.jpeg" alt="" width="230px" height="230px">
+                    
+                </div>
+
+                <div class="card-body">
+                    <h4>Oppo flip phone</h4>
+                </div>
+
+                <div class="card-footer">
+                    <p>has high storage, is space friendly and readily available</p>
+
+                    <b class="text-primary">Ksh 15,200</b>
+                    <br>
+                    <strike class="badge bg-secondary">Ksh 20,000</strike>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 text-center ">
+            <div class="card shadow">
+
+                <div class="card-header">
+                     <img src="images/charger1.jpeg" alt="" width="230px" height="230px">
+                
+                </div>
+
+                <div class="card-body">
+                       <h4>2- port charger</h4>
+                </div>
+
+                <div class="card-footer">
+                    <p>Can two phones at a go since it has two ports. </p>
+
+                    <b class="text-primary">Ksh 900</b>
+                    <br>
+                    <strike class="badge bg-secondary">Ksh 1,200</strike>
+                </div>
+            </div>
+        </div>
+
+      </section>
+      <br>
+      <hr>
+      <br>
+
+        <section class="row">
+       <div class="col-md-3 text-center">
+         <img src="images/watch14000.webp" alt="" width="230px" height="230px">
+        <h5>Beautiful watch</h5>
+        <p>Suitable with official wear, has strong leather wristbands of amazing color.</p>
+
+        <b class="text-primary">Ksh 800</b>
+        <br>
+        <strike class="badge bg-secondary">Ksh 1,000</strike>
+       </div>
+
+       <div class="col-md-3 text-center">
+        <img src="images/facc3.jpeg" alt="" width="230px" height="230px">
+        <h5>Grouped Accessories</h5>
+        <p>Matching Accessories for a beatiful collection.</p>
+
+        <b class="text-primary">Ksh 4,300</b>
+        <br>
+        <strike class="badge bg-secondary">ksh 4,500</strike>
+       </div>
+
+       <div class="col-md-3 text-center">
+        <img src="images/head2.webp" alt="" width="230px" height="230px">
+        <h5>pure bass headphones</h5>
+        <p>high quality head phones great for outdoor walks and offers the best experince.</p>
+
+        <b class="text-primary">Ksh 5,800</b>
+        <br>
+        <strike class="badge bg-secondary">ksh 6,000</strike>
+       </div>
+
+       <div class="col-md-3 text-center">
+        <img src="images/pods1.jpeg" alt="" width="230px" height="230px">
+        <h5>bluetooth pods</h5>
+        <p>enjoy listening to music and other stuff via bluetooth connectivity using this amazing pods. </p>
+
+        <b class="text-primary">Ksh 1,000</b>
+        <br>
+        <strike class="badge bg-secondary">ksh 1,500</strike>
+       </div>
+     </section>
+     <br>
+     <hr>
+     <br>
+
+     <section class="row">
+        <div class="col-md-12">
+            <marquee behavior="scroll" direction="right">
+                <img src="images/appl.jpg" alt="" width="300px" height="400px">
+                 &nbsp; &nbsp; &nbsp; &nbsp;
+                <img src="images/appl4.jpg" alt="" width="300px" height="400px">
+                 &nbsp; &nbsp; &nbsp; &nbsp;
+            </marquee>
+        </div>
+     </section>
+     <br>
+     <hr>
+     <br>
+     
+     <!-- Footer section -->
+      <section class="row bg-secondary">
+        <div class="col-md-4 text-white text-center">
+            <h4>About us</h4>
+            <p>Accessories website is here for you.</p>
+
+            <p>We are a website dedicated to providing quality accessory products at your fingertips at a considarable price. Delivery is countrywide and absolutely free provided you are near our picking stations.</p>
+        </div>
+
+        <div class="col-md-4">
+            <h4 class="text-white">Contact us</h4>
+            <form action="">
+                <input type="email" placeholder="Enter Your Email"class="form-control">
+                 <br><br>
+                <textarea name="" id="" placeholder="Leave a comment" class="form-control"></textarea>
+                <br>
+                <br>
+                <input type="submit" class="btn btn-outline-info" value="Send message">
+                              
+            </form>
+        </div>
+
+        <div class="col-md-4">
+            <h4 class="text-white">Stay conncted</h4>
+            
+            <a href="https:/www.facebook.com"><img src="images/fb.png" alt=""></a>
+            <a href="https:/www.instagram.com"><img src="images/in.png" alt=""></a>
+            <a href="https:/www.x.com"><img src="images/x.png" alt=""></a>
+            
+            <p>Find us on all the above social media platforms where more information is concerning our website.</p>
+        </div>
+      </section>
+
+      <footer class="bg-dark p-3 text-center text-white">
+        <b>Developed by Hope &copy; All rights Reserved</b>
+      </footer>
+
+</body>
+</html>
